@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="in.ac.skasc.skascfacultycontacts.DepartmentActivity">
+
+    <include
+        android:id="@+id/loading"
+        layout="@layout/loading" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/departments_searchET"
+            style="@style/SearchEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/departments_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/adView"
+            android:layout_below="@+id/departments_searchET" />
+
+        <include
+            android:id="@id/adView"
+            layout="@layout/ad_banner" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullScreen" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="Title">
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SearchEditText">
+        <item name="android:drawableStart">@drawable/ic_search</item>
+        <item name="android:inputType">text</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:background">@drawable/edit_text_shape</item>
+        <item name="android:hint">Search</item>
+    </style>
+
+    <style name="RippleEffect">
+        <item name="android:background">@drawable/ripple_effect</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="RippleEffectCV">
+        <item name="android:foreground">@drawable/ripple_effect</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="CallActivityMargin" parent="RippleEffectCV">
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginTop">20sp</item>
+    </style>
+</resources>

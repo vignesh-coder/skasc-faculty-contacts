@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SKASC Faculty Contacts</string>
+    <string name="skasc">SKASC</string>
+    <string name="faculty_contacts">Faculty Contacts</string>
+    <string name="non_teaching_staffs">Non-Teaching\nStaffs</string>
+    <string name="teaching_staffs">Teaching\nStaffs</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9708819525226632/6506381723</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="cug">CUG</string>
+    <string name="mobile">Mobile</string>
+    <string name="please_wait">Please wait...</string>
+</resources>

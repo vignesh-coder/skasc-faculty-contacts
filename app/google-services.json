@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "999286219060",
+    "firebase_url": "https://skascfacultycontacts.firebaseio.com",
+    "project_id": "skascfacultycontacts",
+    "storage_bucket": "skascfacultycontacts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999286219060:android:c9c7882efebe2f1f",
+        "android_client_info": {
+          "package_name": "in.ac.skasc.skascfacultycontacts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999286219060-7vdbnbb26tv871oa1blb2d96mkskmvb5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ac.skasc.skascfacultycontacts",
+            "certificate_hash": "4f389362f9e3bb1e286ec5f31b163868f9016f3b"
+          }
+        },
+        {
+          "client_id": "999286219060-v5q6ra51ut0309l6cg18eu6eh9fpca7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDog42ye6qTE3NU19cmFywyjBRmSMucL0Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999286219060-v5q6ra51ut0309l6cg18eu6eh9fpca7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
